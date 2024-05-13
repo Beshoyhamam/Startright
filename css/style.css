@@ -1,0 +1,371 @@
+/* Start Variable */
+:root {
+    --main-color: #10495C;
+    --orange-color: #F2AD5F;
+}
+/* End Variable */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Satrt Roules */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-btn {
+    background-color: var(--orange-color);
+    color: #FFF;
+    width: 160px;
+}
+
+.main-btn:hover {
+    border-color: var(--orange-color);
+    background-color: var(--main-color);
+    color: #FFF;
+}
+
+.main-img {
+    background-color: var(--orange-color);
+    border: 3px solid var(--main-color);
+}
+
+.main-active {
+    color: var(--orange-color);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 2px var(--main-color);
+}
+/* End Roules */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Navbar */
+.navbar {
+    background-color: var(--main-color);
+}
+
+.navbar .toggle-bar {
+    color: #FFF;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-brand {
+    color: var(--orange-color);
+}
+
+.navbar .navbar-brand::after {
+    content: ".";
+    color: #FFF;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.navbar .nav-item .nav-link {
+    color: #FFF;
+}
+
+.navbar .nav-item .active {
+    color: var(--orange-color);
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: var(--orange-color);
+}
+
+.navbar .dropdown-item:hover {
+    color: #000;
+    background-color: #FFF;
+}
+/* End Navbar */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Get Start */
+.get-strat {
+    background-color: var(--main-color);
+    height: 100vh;
+}
+/* End Get Start */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Seen On */
+.seen-on p {
+    color: var(--main-color);
+}
+
+.seen-on img {
+    width: 130px;
+    height: 60px;
+}
+
+/* End Seen On */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Run Business */
+.run-business {
+    height: 100vh;
+}
+
+.run-business::after {
+    content: "";
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--main-color);
+    z-index: -1;
+}
+
+.run-business .check {
+    color: var(--orange-color);
+}
+
+@media (max-width: 991px) {
+    .run-business::after {
+        width: 100%;
+    }
+
+    .run-business {
+        height: auto;
+    }
+}
+/* End Run Business */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Productive */
+.productive {
+    background-color: #F8F9FA;
+}
+
+.productive .info {
+    background-color: #fff;
+}
+
+.productive h3 {
+    color: var(--main-color);
+}
+
+@media (max-width: 767px) {
+    .productive .quote {
+        text-align: center;
+    }
+
+    .productive .quote .img-user {
+        margin-bottom: 15px;
+    }
+
+    .productive .quote .img-user img {
+        width: 70%;
+    }
+}
+
+
+/* Start Productive */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Stats */
+.stats {
+    background-color: var(--main-color);
+}
+
+.stats .row div {
+    box-shadow: 0 0 15px #DDD inset;
+}
+
+@media (max-width: 767px) {
+    .stats .row div {
+        width: 80%;
+    }
+}
+/* End Stats */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Features */
+.features h3 {
+    color: var(--main-color);
+}
+
+.features .feat-box {
+    border: 2px solid #ddd;
+    transition: all .3s;
+}
+
+@media (max-width: 767px) {
+    .features .feat-box {
+        width: 80%;
+    }
+}
+
+.features .icon {
+    color: #777;
+    background-color: #e9e9e9;
+    transition: all .3s;
+}
+
+.features .feat-box:hover  {
+    border-color: var(--main-color);
+}
+
+.features .feat-box:hover .icon {
+    color: var(--orange-color);
+    background-color: var(--main-color);
+}
+/* End Features */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Contact */
+.contact {
+    background-color: #F8F9FA;
+}
+
+@media (max-width: 767px) {
+    .contact .row {
+        text-align: center;
+    }
+}
+
+.footer a {
+    color: var(--orange-color);
+}
+
+.footer a .icon {
+    color: #F00;
+}
+
+.contact .submit {
+    background-color: var(--main-color);
+    color: #FFF;
+}
+/* End Contact */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Solutions */
+.solutions {
+    background-color: var(--main-color);
+    height: 400px;
+}
+
+.solutions a:hover {
+    color: var(--orange-color);
+}
+/* End Solutions */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Plans */
+.plans h2 {
+    color: var(--main-color);
+}
+
+.plans .offer h5,
+.plans .offer h3 {
+    color: var(--main-color);
+}
+
+.plans .offer h3 {
+    font-size: 50px ;
+}
+
+.plans .offer-pro {
+    border: 2px solid var(--main-color);
+}
+
+.plans .offer-pro .btn {
+    background-color: var(--main-color);
+    color: #FFF;
+}
+
+.plans .offer .btn:hover {
+    background-color: var(--main-color);
+    color: #FFF;
+}
+/* End Plans */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Asked */
+.asked h2 {
+    color: var(--main-color);
+}
+
+.asked .accordion-button {
+    background-color: #fff;
+    color: #000 ;
+}
+
+.asked .accordion-button:focus {
+    box-shadow: none;
+    background-color: var(--main-color);
+    color: #FFF;
+}
+
+.asked .accordion-button::after {
+    background-image: #000;
+}
+/* End Asked */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Testimonials */
+.testimonials h2 {
+    color: var(--main-color);
+}
+/* End Testimonials */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Why Us */
+.why-us div h6 {
+    color: var(--main-color);
+}
+/* End Why Us */
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Start Contact Us */
+.write ul .facebook {
+    color: #3b5998;
+}
+
+.write ul .twitter {
+    color: #55acee;
+}
+
+.write ul .instagram {
+    color: #3f729b;
+}
+
+.write ul .globe {
+    color: #1769ff;
+}
+
+.write ul .linkedin {
+    color: #0077b5;
+}
+
+@media (max-width: 767px) {
+    .solutions .container {
+        flex-direction: column;
+    }
+
+    .write form input[type= email] {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.write form textarea {
+    resize: none;
+}
+/* End Contact Us */
